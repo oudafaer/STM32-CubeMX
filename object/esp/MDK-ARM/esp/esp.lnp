@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"esp\startup_stm32f103xe.o"
+"esp\main.o"
+"esp\gpio.o"
+"esp\usart.o"
+"esp\stm32f1xx_it.o"
+"esp\stm32f1xx_hal_msp.o"
+"esp\my_esp8266.o"
+"esp\stm32f1xx_hal_gpio_ex.o"
+"esp\stm32f1xx_hal_tim.o"
+"esp\stm32f1xx_hal_tim_ex.o"
+"esp\stm32f1xx_hal_uart.o"
+"esp\stm32f1xx_hal.o"
+"esp\stm32f1xx_hal_rcc.o"
+"esp\stm32f1xx_hal_rcc_ex.o"
+"esp\stm32f1xx_hal_gpio.o"
+"esp\stm32f1xx_hal_dma.o"
+"esp\stm32f1xx_hal_cortex.o"
+"esp\stm32f1xx_hal_pwr.o"
+"esp\stm32f1xx_hal_flash.o"
+"esp\stm32f1xx_hal_flash_ex.o"
+"esp\stm32f1xx_hal_exti.o"
+"esp\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "esp\esp.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "esp.map" -o esp\esp.axf
