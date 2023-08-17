@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"encoder-pid\startup_stm32f103xb.o"
+"encoder-pid\main.o"
+"encoder-pid\gpio.o"
+"encoder-pid\dma.o"
+"encoder-pid\tim.o"
+"encoder-pid\usart.o"
+"encoder-pid\stm32f1xx_it.o"
+"encoder-pid\stm32f1xx_hal_msp.o"
+"encoder-pid\stm32f1xx_hal_gpio_ex.o"
+"encoder-pid\stm32f1xx_hal_tim.o"
+"encoder-pid\stm32f1xx_hal_tim_ex.o"
+"encoder-pid\stm32f1xx_hal.o"
+"encoder-pid\stm32f1xx_hal_rcc.o"
+"encoder-pid\stm32f1xx_hal_rcc_ex.o"
+"encoder-pid\stm32f1xx_hal_gpio.o"
+"encoder-pid\stm32f1xx_hal_dma.o"
+"encoder-pid\stm32f1xx_hal_cortex.o"
+"encoder-pid\stm32f1xx_hal_pwr.o"
+"encoder-pid\stm32f1xx_hal_flash.o"
+"encoder-pid\stm32f1xx_hal_flash_ex.o"
+"encoder-pid\stm32f1xx_hal_exti.o"
+"encoder-pid\stm32f1xx_hal_uart.o"
+"encoder-pid\system_stm32f1xx.o"
+--strict --scatter "Encoder-PID\Encoder-PID.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Encoder-PID.map" -o Encoder-PID\Encoder-PID.axf

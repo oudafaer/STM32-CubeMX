@@ -1,0 +1,10 @@
+car\inv_mpu_dmp_motion_driver.o: ..\lib\Hardware\inv_mpu_dmp_motion_driver.c
+car\inv_mpu_dmp_motion_driver.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+car\inv_mpu_dmp_motion_driver.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+car\inv_mpu_dmp_motion_driver.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+car\inv_mpu_dmp_motion_driver.o: E:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+car\inv_mpu_dmp_motion_driver.o: E:\MDK5\ARM\ARMCC\Bin\..\include\math.h
+car\inv_mpu_dmp_motion_driver.o: ..\lib\Hardware\inv_mpu.h
+car\inv_mpu_dmp_motion_driver.o: ..\lib\Hardware\inv_mpu_dmp_motion_driver.h
+car\inv_mpu_dmp_motion_driver.o: ..\lib\Hardware\dmpKey.h
+car\inv_mpu_dmp_motion_driver.o: ..\lib\Hardware\dmpmap.h

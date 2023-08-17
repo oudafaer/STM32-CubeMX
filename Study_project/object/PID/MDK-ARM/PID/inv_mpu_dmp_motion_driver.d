@@ -1,0 +1,10 @@
+pid\inv_mpu_dmp_motion_driver.o: ..\Core\Src\inv_mpu_dmp_motion_driver.c
+pid\inv_mpu_dmp_motion_driver.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+pid\inv_mpu_dmp_motion_driver.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+pid\inv_mpu_dmp_motion_driver.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+pid\inv_mpu_dmp_motion_driver.o: E:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+pid\inv_mpu_dmp_motion_driver.o: E:\MDK5\ARM\ARMCC\Bin\..\include\math.h
+pid\inv_mpu_dmp_motion_driver.o: ../Core/Inc/inv_mpu.h
+pid\inv_mpu_dmp_motion_driver.o: ../Core/Inc/inv_mpu_dmp_motion_driver.h
+pid\inv_mpu_dmp_motion_driver.o: ../Core/Inc/dmpKey.h
+pid\inv_mpu_dmp_motion_driver.o: ../Core/Inc/dmpmap.h

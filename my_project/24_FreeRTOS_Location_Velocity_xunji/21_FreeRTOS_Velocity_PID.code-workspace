@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../21_FreeRTOS_Velocity_PID"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"motor.h": "c"
+		}
+	}
+}

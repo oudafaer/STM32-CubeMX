@@ -1,0 +1,10 @@
+{
+	"folders": [],
+	"settings": {
+		"files.associations": {
+			"cmath": "cpp",
+			"*.tcc": "cpp",
+			"main.h": "c"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+sg04\commontablesf16.o: E:\MDK5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\DSP\Source\CommonTables\CommonTablesF16.c
+sg04\commontablesf16.o: E:\MDK5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\DSP\Source\CommonTables\arm_common_tables_f16.c
+sg04\commontablesf16.o: E:\MDK5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\arm_math_types_f16.h
+sg04\commontablesf16.o: E:\MDK5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\DSP\Include\arm_math_types.h
+sg04\commontablesf16.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+sg04\commontablesf16.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+sg04\commontablesf16.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+sg04\commontablesf16.o: E:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+sg04\commontablesf16.o: E:\MDK5\ARM\ARMCC\Bin\..\include\math.h
+sg04\commontablesf16.o: E:\MDK5\ARM\ARMCC\Bin\..\include\float.h
+sg04\commontablesf16.o: E:\MDK5\ARM\ARMCC\Bin\..\include\limits.h
+sg04\commontablesf16.o: E:\MDK5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\DSP\Source\CommonTables\arm_const_structs_f16.c
+sg04\commontablesf16.o: E:\MDK5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\DSP\Source\CommonTables\arm_mve_tables_f16.c

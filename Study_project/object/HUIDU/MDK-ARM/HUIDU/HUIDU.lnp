@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"huidu\startup_stm32f103xb.o"
+"huidu\main.o"
+"huidu\gpio.o"
+"huidu\usart.o"
+"huidu\stm32f1xx_it.o"
+"huidu\stm32f1xx_hal_msp.o"
+"huidu\stm32f1xx_hal_gpio_ex.o"
+"huidu\stm32f1xx_hal_tim.o"
+"huidu\stm32f1xx_hal_tim_ex.o"
+"huidu\stm32f1xx_hal_uart.o"
+"huidu\stm32f1xx_hal.o"
+"huidu\stm32f1xx_hal_rcc.o"
+"huidu\stm32f1xx_hal_rcc_ex.o"
+"huidu\stm32f1xx_hal_gpio.o"
+"huidu\stm32f1xx_hal_dma.o"
+"huidu\stm32f1xx_hal_cortex.o"
+"huidu\stm32f1xx_hal_pwr.o"
+"huidu\stm32f1xx_hal_flash.o"
+"huidu\stm32f1xx_hal_flash_ex.o"
+"huidu\stm32f1xx_hal_exti.o"
+"huidu\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "HUIDU\HUIDU.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "HUIDU.map" -o HUIDU\HUIDU.axf
