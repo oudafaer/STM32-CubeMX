@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"29_tb6600\startup_stm32f103xb.o"
+"29_tb6600\main.o"
+"29_tb6600\gpio.o"
+"29_tb6600\tim.o"
+"29_tb6600\usart.o"
+"29_tb6600\stm32f1xx_it.o"
+"29_tb6600\stm32f1xx_hal_msp.o"
+"29_tb6600\stm32f1xx_hal_gpio_ex.o"
+"29_tb6600\stm32f1xx_hal_tim.o"
+"29_tb6600\stm32f1xx_hal_tim_ex.o"
+"29_tb6600\stm32f1xx_hal.o"
+"29_tb6600\stm32f1xx_hal_rcc.o"
+"29_tb6600\stm32f1xx_hal_rcc_ex.o"
+"29_tb6600\stm32f1xx_hal_gpio.o"
+"29_tb6600\stm32f1xx_hal_dma.o"
+"29_tb6600\stm32f1xx_hal_cortex.o"
+"29_tb6600\stm32f1xx_hal_pwr.o"
+"29_tb6600\stm32f1xx_hal_flash.o"
+"29_tb6600\stm32f1xx_hal_flash_ex.o"
+"29_tb6600\stm32f1xx_hal_exti.o"
+"29_tb6600\stm32f1xx_hal_uart.o"
+"29_tb6600\system_stm32f1xx.o"
+--strict --scatter "29_TB6600\29_TB6600.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "29_TB6600.map" -o 29_TB6600\29_TB6600.axf
